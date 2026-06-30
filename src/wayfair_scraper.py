@@ -40,6 +40,7 @@ response = requests.post(
 print(response.status_code)
 
 content = response.json()["results"][0]["content"]
+
 with open("wayfair_page.html", "w", encoding="utf-8") as f:
     f.write(content)
 
