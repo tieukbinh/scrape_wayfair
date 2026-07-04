@@ -1,4 +1,31 @@
+# Environment
 .env
+
+# Data files (optional safety net)
 *.csv
 *.json
 *.html
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+**/.DS_Store
+
+# Logs (if you add logging later)
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter (if ever used)
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.swp
