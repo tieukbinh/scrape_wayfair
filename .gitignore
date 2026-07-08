@@ -5,6 +5,7 @@
 *.csv
 *.json
 *.html
+*.txt
 
 # Python cache
 __pycache__/
